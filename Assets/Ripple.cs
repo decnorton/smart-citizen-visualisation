@@ -248,16 +248,16 @@ public class Ripple : MonoBehaviour {
 		int labelHeight = 40;
 
 		// Top
-		GUI.Label (new Rect ((width / 2) - (labelWidth / 2), (height / 2) - 100, labelWidth, labelHeight), "Humidity", centeredStyle);
+		GUI.Label (new Rect ((width / 2) - (labelWidth / 2) + 10, (height / 2) - 120, labelWidth, labelHeight), "Humidity", centeredStyle);
 
 		// Left
-		GUI.Label (new Rect ((width / 2) - labelWidth - 80, (height / 2), labelWidth, labelHeight), "Noise", centeredStyle);
+		GUI.Label (new Rect ((width / 2) - labelWidth - 180, (height / 2) + 40, labelWidth, labelHeight), "Noise", centeredStyle);
 
 		// Right
-		GUI.Label (new Rect ((width / 2) + labelWidth, (height / 2), labelWidth, labelHeight), "Light", centeredStyle);
+		GUI.Label (new Rect ((width / 2) + labelWidth + 100, (height / 2) + 40, labelWidth, labelHeight), "Light", centeredStyle);
 
 		// Bottom
-		GUI.Label (new Rect ((width / 2) - (labelWidth / 2), (height / 2) + 140, labelWidth, labelHeight), "Temperature", centeredStyle);
+		GUI.Label (new Rect ((width / 2) - (labelWidth / 2) + 10, (height / 2) + 240, labelWidth, labelHeight), "Temperature", centeredStyle);
 
 	
 	}
